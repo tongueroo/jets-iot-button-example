@@ -1,8 +1,8 @@
 class ButtonJob < ApplicationJob
   include Jets::AwsServices
 
-  iam_policy("sns")
-  iot_event(sql: "SELECT * FROM '#{ENV['BUTTON_TOPIC']}'")
+  iam_policy "sns"
+  iot_event "SELECT * FROM '#{ENV['BUTTON_TOPIC']}'"
   def deliver
     puts "event #{JSON.dump(event)}"
 
