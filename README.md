@@ -16,3 +16,9 @@ Update [.env](.env) with your own values. Example .env:
     PHONE_NUMBER=1-111-222-3333
 
 Press the button to receive a sns text message.
+
+Here's the blog article:
+
+* Blog Post: []()
+
+If you find Jets interesting, please it a GitHub star [tongueroo/jets](https://github.com/tongueroo/jets). It helps others find out about the project.  I'd appreciate it!
