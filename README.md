@@ -1,5 +1,7 @@
 # Jets IoT Button Example
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 This project shows a simple IoT button example with [Jets](http://rubyonjets.com/).
 
 ## Usage
